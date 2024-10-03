@@ -1,0 +1,44 @@
+/* blog */
+
+* {
+  margin:5px;
+}
+
+.container_title {
+  padding-bottom: 10px;
+}
+
+.blog_title {
+  font-size: 50px;
+  margin:0;
+}
+
+.blog_title_sub {
+  font-size: 18px;
+  color: gray;
+  margin:0;
+}
+
+.container_proj_photo {
+  overflow: auto; /* Clear floats within the container */
+}
+
+.proj_photo {
+  float: left; /* Float the image container to the left */
+  margin-right: 5px; 
+  width: 500px; /* Set the width of the figure container */
+}
+
+.proj_photo img {
+  width: 100%; /* Set the image width to fill the container */
+  height: 350px; /* Set the image height */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.overview {
+  font-size: 20px;
+  line-height: 1.3;
+  max-height: 350px; /* Set max height to match the image height */
+  overflow: hidden; /* Hide overflow content */
+  overflow-y: auto; /* Allow vertical scrolling if the text exceeds max-height */
+}
